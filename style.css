@@ -1,0 +1,16 @@
+* {
+    border: 1px dotted red;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#portrait {
+    max-width: 100%;
+}
+
+#portrait img {
+    width: 300px;
+    height: auto;
+}
+
