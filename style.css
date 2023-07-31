@@ -1,3 +1,13 @@
+/* 
+SCSS RGB
+$dark-moss-green: rgba(96, 108, 56, 1);
+$pakistan-green: rgba(40, 54, 24, 1);
+$eerie-black: rgba(21, 28, 13, 1);
+$cornsilk: rgba(254, 250, 224, 1);
+$butterscotch: rgba(219, 157, 87, 1);
+$tigers-eye: rgba(188, 108, 37, 1);
+*/
+
 * {
     /*border: 1px dotted red;*/
     font-family: 'Roboto', sans-serif;
@@ -8,12 +18,12 @@
 }
 
 html {
-    background-color: rgba(0,185,255,1);
+    background-color: rgba(96, 108, 56, 1);
 }
 
 body {
     color: #ffffff;
-    background: linear-gradient(180deg, rgba(8,16,119,1) 0%, rgba(0,43,191,1) 25%, rgba(0,90,209,1) 50%, rgba(0,185,255,1) 100%);
+    background: rgba(96, 108, 56, 1);
 }
 
 a {
@@ -26,14 +36,19 @@ h2 {
 }
 
 nav {
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(21, 28, 13, 1);
     display: flex;
     justify-content: space-around;
     padding: 10px;
 }
 
 nav a {
-    padding: 2px 5px;
+    padding: 5px;
+}
+
+#logo a {
+    font-family: 'Borel', cursive;
+    font-size: 1.5rem;
 }
 
 #nav-options {
@@ -45,11 +60,11 @@ nav a {
 }
 
 .nav-option a:hover {
-    background-color: rgba(0,185,255,0.75);
+    background-color: rgba(219, 157, 87, 1);
 }
 
 button {
-    background-color: rgba(0,185,255,1);
+    background-color: rgba(219, 157, 87, 1);
     border-radius: 5px;
 }
 
