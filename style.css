@@ -11,6 +11,7 @@ $tigers-eye: rgba(188, 108, 37, 1);
 * {
     /*border: 1px dotted red;*/
     font-family: 'Roboto', sans-serif;
+    color: rgba(254, 250, 224, 1);
     font-size: 16px;
     box-sizing: border-box;
     padding: 0;
@@ -22,12 +23,10 @@ html {
 }
 
 body {
-    color: #ffffff;
     background: rgba(96, 108, 56, 1);
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
 }
 
@@ -36,18 +35,16 @@ h2 {
 }
 
 nav {
-    background-color: rgba(21, 28, 13, 1);
+    background-color: rgba(21, 28, 13, 0.75);
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 10px;
 }
 
-nav a {
-    padding: 5px;
-}
 
 #logo a {
-    font-family: 'Borel', cursive;
+    /*font-family: 'Borel', cursive;*/
     font-size: 1.5rem;
 }
 
@@ -57,6 +54,11 @@ nav a {
 
 .nav-option {
     display: inline-block;
+    margin: 0 5px;
+}
+
+.nav-option a {
+    padding: 17px;
 }
 
 .nav-option a:hover {
@@ -66,7 +68,9 @@ nav a {
 button {
     background-color: rgba(219, 157, 87, 1);
     border-radius: 5px;
+    padding: 5px 10px;
 }
+
 
 #hero-container {
     display: flex;
