@@ -4,6 +4,7 @@ $raisin-black: rgba(37, 35, 35, 1);
 $slate-gray: rgba(112, 121, 140, 1);
 $isabelline: rgba(245, 241, 237, 1);
 $bone: rgba(218, 210, 188, 1);
+$dun: rgba(205, 193, 162, 1);
 $khaki: rgba(169, 153, 133, 1);
 */
 
@@ -59,7 +60,7 @@ nav {
 
 .nav-option a {
     color: rgba(245, 241, 237, 1);
-    padding: 17px;
+    padding: 16px;
 }
 
 .nav-option a:hover {
@@ -71,6 +72,11 @@ button {
     background-color: rgba(218, 210, 188, 1);
     border-radius: 15px;
     padding: 5px 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: rgba(205, 193, 162, 1);
 }
 
 
