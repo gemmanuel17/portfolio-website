@@ -42,11 +42,13 @@ nav {
     padding: 10px;
 }
 
+#logo {
+    width: 10%;
+}
 
-#logo a {
-    /*font-family: 'Borel', cursive;*/
-    color: rgba(245, 241, 237, 1);
-    font-size: 1.5rem;
+#logo img {
+    width: 120%;
+    height: auto;
 }
 
 #nav-options {
@@ -112,6 +114,15 @@ button:hover {
 @media only screen and (max-device-width: 430px) and (orientation: portrait) {
     * {
         font-size: 1.25rem;
+    }
+
+    #logo {
+        width: 20%;
+    }
+    
+    #logo img {
+        width: 120%;
+        height: auto;
     }
 
     #hero-container {
