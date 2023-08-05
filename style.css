@@ -20,10 +20,12 @@ $khaki: rgba(169, 153, 133, 1);
 
 html {
     background-color: rgba(245, 241, 237, 1);
+    width: 100%;
 }
 
 body {
     background: rgba(245, 241, 237, 1);
+    width: 100%;
 }
 
 a {
@@ -31,7 +33,9 @@ a {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    margin: 15px 0;
 }
 
 nav {
@@ -39,7 +43,11 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0;
     padding: 10px;
+    width: 100%;
+    z-index: 99;
 }
 
 #logo {
@@ -81,19 +89,32 @@ button:hover {
     background-color: rgba(205, 193, 162, 1);
 }
 
+section {
+    margin-top: 50px;
+}
 
 #hero-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
     padding: 20px;
 }
 
+#about-me, #portrait {
+    width: 50%;
+}
+
 #portrait {
-    max-width: 100%;
+    padding: 100px;
 }
 
 #portrait img {
-    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border: 10px solid rgba(37, 35, 35, 1);
+    border-radius: 450px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -113,11 +134,17 @@ button:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-.project {
     width: 50%;
     height: auto;
+}
+
+.project img {
+    border: 10px solid rgba(37, 35, 35, 1);
+    border-radius: 20px;
+}
+
+.project img:hover {
+    opacity: 0.75;
 }
 
 .project-img {
@@ -143,9 +170,22 @@ button:hover {
         flex-direction: column-reverse;
     }
 
+    #about-me, #portrait {
+        width: 100%;
+    }
+
+    #about-me p {
+        text-align: center;
+    }
+
     #projects {
         justify-content: center;
         align-items: center; 
         flex-direction: column;
+    }
+
+    .project {
+        width: 100%;
+        height: auto;
     }
 }
