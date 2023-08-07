@@ -83,6 +83,9 @@ nav {
 }
 
 @media only screen and (min-device-width: 431px) {
+#nav-options {
+    display: inline-block !important;
+}
 
 #nav-button {
     background-color: rgba(218, 210, 188, 1);
