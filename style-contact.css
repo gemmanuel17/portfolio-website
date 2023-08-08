@@ -9,12 +9,16 @@
 }
 
 @media only screen and (max-device-width: 430px) and (orientation: portrait) {
+    #nav-options {
+        top: 109px;
+    }
+    
     .nav-option {
         padding: 20px 0;
     }
 
     #nav-button {
-        top: 338px;
+        top: 336px;
         padding: 20px 0;
     }
 
