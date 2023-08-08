@@ -1,12 +1,4 @@
-#nav-options {
-    top: 111px
-}
-
-#nav-button {
-    top: 228px;
-}
-
-#connect-container {
+#page-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,4 +6,9 @@
     flex-direction: column;
     margin-top: 50%;
     margin-bottom: 50%;
+}
+
+#construction {
+    color: rgba(37, 35, 35, 1);
+    font-size: 5rem !important;
 }
