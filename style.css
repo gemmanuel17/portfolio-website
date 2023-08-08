@@ -45,7 +45,6 @@ nav {
     align-items: center;
     position: fixed;
     top: 0;
-    padding: 10px;
     width: 100%;
     z-index: 99;
 }
@@ -60,7 +59,12 @@ nav {
 }
 
 #hamburger-menu {
-    display: none !important;
+    display: none;
+}
+
+#close-menu {
+    display: none;
+    padding: 30px;;
 }
 
 #nav-options {
@@ -74,29 +78,34 @@ nav {
 
 .nav-option a {
     color: rgba(245, 241, 237, 1);
-    padding: 16px;
-}
-
-.nav-option a:hover {
-    color: rgba(37, 35, 35, 1);
-    background-color: rgba(218, 210, 188, 1);
+    padding: 18px;
 }
 
 @media only screen and (min-device-width: 431px) {
-#nav-options {
-    display: inline-block !important;
-}
 
-#nav-button {
-    background-color: rgba(218, 210, 188, 1);
-    border-radius: 15px;
-    padding: 5px 20px;
-    border: none;
-}
+    nav {
+        padding: 10px;
+    }
 
-#nav-button:hover {
-    background-color: rgba(205, 193, 162, 1);
-}
+    .nav-option a:hover {
+        color: rgba(37, 35, 35, 1);
+        background-color: rgba(218, 210, 188, 1);
+    }
+
+    #nav-options {
+        display: block !important;
+    }
+
+    #nav-button {
+        background-color: rgba(218, 210, 188, 1);
+        border-radius: 15px;
+        padding: 5px 20px;
+        border: none;
+    }
+
+    #nav-button:hover {
+        background-color: rgba(205, 193, 162, 1);
+    }
 }
 
 #hero-container {
@@ -167,32 +176,52 @@ nav {
 
     nav {
         justify-content: space-between;
-        padding: 30px;
     }
 
     #logo {
         width: 30%;
+        padding: 30px;;
     }
     
     #logo img {
-        width: 120%;
+        width: 150%;
         height: auto;
     }
 
     #nav-options, #nav-button {
         display: none;
+        position: fixed;
+        z-index: 99;
+        background-color: rgba(37, 35, 35, 1);
+        width: 100%;
+        text-align: center;
+    }
+
+    #nav-options {
+        top: 116px;
+    }
+
+    .nav-option {
+        display: block;
+        padding: 5px 0;
+    }
+
+    #nav-button {
+        top: 232px;
+        padding: 5px 0;
     }
 
     #nav-button a{
-        color: rgba(218, 210, 188, 1);
+        color: rgba(245, 241, 237, 1);
     }
 
     #hamburger-menu {
-        display: inline-block !important;
+        display: block;
+        padding: 30px;
     }
 
     .material-symbols-outlined {
-        color: rgba(218, 210, 188, 1);
+        color: rgba(245, 241, 237, 1);
         font-size: 2.5rem !important;
     }
 
