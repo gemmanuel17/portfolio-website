@@ -12,3 +12,15 @@
     color: rgba(37, 35, 35, 1);
     font-size: 5rem !important;
 }
+
+@media only screen and (max-device-width: 430px) and (orientation: portrait) {
+    .nav-option {
+        padding: 20px 0;
+    }
+
+    #nav-button {
+        top: 338px;
+        padding: 20px 0;
+    }
+
+}

@@ -203,12 +203,12 @@ nav {
 
     .nav-option {
         display: block;
-        padding: 5px 0;
+        padding: 20px 0;
     }
 
     #nav-button {
-        top: 259px;
-        padding: 5px 0;
+        top: 354px;
+        padding: 20px 0;
     }
 
     #nav-button a{

@@ -1,11 +1,3 @@
-#nav-options {
-    top: 111px
-}
-
-#nav-button {
-    top: 228px;
-}
-
 #connect-container {
     display: flex;
     justify-content: center;
@@ -14,4 +6,16 @@
     flex-direction: column;
     margin-top: 50%;
     margin-bottom: 50%;
+}
+
+@media only screen and (max-device-width: 430px) and (orientation: portrait) {
+    .nav-option {
+        padding: 20px 0;
+    }
+
+    #nav-button {
+        top: 338px;
+        padding: 20px 0;
+    }
+
 }
