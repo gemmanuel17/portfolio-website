@@ -137,6 +137,34 @@ nav {
     padding: 20px;
 }
 
+#coding-languages {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#logo-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#html-logo {
+    width: 25%;
+    height: auto;
+}
+
+#css-logo {
+    width: 25%;
+    height: auto;
+}
+
+#js-logo {
+    width: 25.6%;
+    height: auto;
+}
+
 #projects {
     display: flex;
     width: 100%;
