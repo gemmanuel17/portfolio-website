@@ -116,6 +116,10 @@ nav {
     padding: 20px 85px;
     width: 75%;
     margin: 0 auto;
+    /*background-image: url("./media/beach-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
 }
 
 #about-me, #portrait {
