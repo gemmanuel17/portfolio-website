@@ -113,7 +113,9 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 20px;
+    padding: 20px 85px;
+    width: 75%;
+    margin: 0 auto;
 }
 
 #about-me, #portrait {
@@ -134,7 +136,9 @@ nav {
 }
 
 #project-container {
-    padding: 20px;
+    padding: 20px 85px;
+    width: 74%;
+    margin: 0 auto;
 }
 
 #coding-languages {
@@ -142,12 +146,16 @@ nav {
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    padding: 20px 85px;
+    margin: 0 auto;
 }
 
 #logo-img {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 50%;
+    margin: 0 auto;
 }
 
 #html-logo {
@@ -255,6 +263,8 @@ nav {
 
     #hero-container {
         flex-direction: column-reverse;
+        width: 100%;
+        top: 100px;
     }
 
     #about-me, #portrait {
@@ -263,6 +273,18 @@ nav {
 
     #about-me p {
         text-align: center;
+    }
+
+    #coding-laguages {
+        width: 100%;
+    }
+
+    #logo-img {
+        width: 100%;
+    }
+
+    #project-container {
+        width: 100%;
     }
 
     #projects {
