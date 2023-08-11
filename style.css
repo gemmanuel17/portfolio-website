@@ -130,7 +130,7 @@ nav {
     display: block;
     margin: 0 auto;
     border: 10px solid rgba(37, 35, 35, 1);
-    border-radius: 450px;
+    border-radius: 50%;
     max-width: 100%;
     height: auto;
 }
@@ -228,9 +228,18 @@ footer a {
 
 }
 
+/* Styling for monitors with max viewport of 1440px*/
+
+@media only screen and (max-device-width: 1440px) {
+    #hero-container {
+        width: 91%;
+        padding: 80px 85px 20px 85px;
+    }
+}
+
 /* Mobile device styling*/
 
-@media only screen and (max-device-width: 430px) and (orientation: portrait) {
+@media only screen and (max-device-width: 430px) {
     * {
         font-size: 1.25rem;
     }
