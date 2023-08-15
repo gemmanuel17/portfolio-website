@@ -234,10 +234,9 @@ footer{
     align-items: center;
 }
 
-/*footer a {
-    display: flex;
-    justify-content: flex-end;
-} */
+#social-media-logos {
+    width: 10%;
+}
 
 #linkedIn-logo {
     width: 30%;
