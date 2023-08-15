@@ -1,16 +1,26 @@
-#page-container {
+#resume-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     flex-direction: column;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin-top: 100px;
 }
 
-#construction {
-    color: rgba(37, 35, 35, 1);
-    font-size: 5rem !important;
+#resume-container img {
+    width: 50%;
+    height: auto;
+}
+
+.link-button {
+    background-color: rgba(218, 210, 188, 1);
+    border-radius: 15px;
+    padding: 5px 20px;
+    border: none;
+    margin: 30px 0;
+}
+
+.link-button:hover {
+    background-color: rgba(205, 193, 162, 1);
 }
 
 @media only screen and (max-device-width: 430px) and (orientation: portrait) {
@@ -21,6 +31,20 @@
     #nav-button {
         top: 338px;
         padding: 20px 0;
+    }
+
+    #resume-container {
+        margin-top: 200px;
+    }
+
+    #resume-container img {
+        width: 90%;
+        height: auto;
+    }
+
+    .link-button {
+        font-size: 1.5rem;
+        padding: 15px 60px;
     }
 
 }
