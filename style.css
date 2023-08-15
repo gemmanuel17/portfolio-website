@@ -38,6 +38,8 @@ h2 {
     margin: 15px 0;
 }
 
+/* Navigation Menu Styling */
+
 nav {
     background-color: rgba(37, 35, 35, 1);
     display: flex;
@@ -108,35 +110,32 @@ nav {
     }
 }
 
-#hero-container {
+/* Intro Container Styling */
+
+#intro-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    padding: 20px 85px;
-    width: 75%;
-    margin: 0 auto;
-    /*background-image: url("./media/beach-background.jpg");
+    flex-direction: column;
+    background-image: url(./media/beach-background.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;*/
-}
-
-#about-me, #portrait {
-    width: 50%;
-}
-
-#portrait {
-    padding: 100px;
-}
-
-#portrait img {
-    display: block;
-    margin: 0 auto;
-    border: 10px solid rgba(37, 35, 35, 1);
-    border-radius: 50%;
-    max-width: 100%;
+    background-size: cover;
+    width: 100%;
     height: auto;
+    margin-top: 49px;
+    padding: 200px 0;
+
+}
+
+#intro-container div {
+    font-size: 3rem;
+    text-shadow: 0 0 3px #ffffff;
+}
+
+#intro-container h1 {
+    font-size: 8rem;
+    text-shadow: 0 0 3px #ffffff;
 }
 
 #project-container {
@@ -177,6 +176,8 @@ nav {
     height: auto;
 }
 
+/* Project Container Styling */
+
 #projects {
     display: flex;
     width: 100%;
@@ -207,6 +208,8 @@ nav {
     height: auto;
 }
 
+/* Footer Styling */
+
 footer{
     background-color: rgba(37, 35, 35, 1);
     display: flex;
@@ -230,15 +233,6 @@ footer a {
     width: 6%;
     height: auto;
 
-}
-
-/* Styling for monitors with max viewport of 1440px*/
-
-@media only screen and (max-device-width: 1440px) {
-    #hero-container {
-        width: 91%;
-        padding: 80px 85px 20px 85px;
-    }
 }
 
 /* Mobile device styling*/
@@ -297,20 +291,6 @@ footer a {
     .material-symbols-outlined {
         color: rgba(245, 241, 237, 1);
         font-size: 2.5rem !important;
-    }
-
-    #hero-container {
-        flex-direction: column-reverse;
-        width: 100%;
-        top: 100px;
-    }
-
-    #about-me, #portrait {
-        width: 100%;
-    }
-
-    #about-me p {
-        text-align: center;
     }
 
     #coding-laguages {

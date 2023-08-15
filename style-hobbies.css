@@ -8,10 +8,43 @@
     margin-bottom: 50%;
 }
 
-#construction {
-    color: rgba(37, 35, 35, 1);
-    font-size: 5rem !important;
+#hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 85px;
+    width: 75%;
+    margin: 0 auto;
 }
+
+#about-me, #portrait {
+    width: 50%;
+}
+
+#portrait {
+    padding: 100px;
+}
+
+#portrait img {
+    display: block;
+    margin: 0 auto;
+    border: 10px solid rgba(37, 35, 35, 1);
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling for monitors with max viewport of 1440px*/
+
+@media only screen and (max-device-width: 1440px) {
+    #hero-container {
+        width: 91%;
+        padding: 80px 85px 20px 85px;
+    }
+}
+
+/* Mobile device styling*/
 
 @media only screen and (max-device-width: 430px) and (orientation: portrait) {
     .nav-option {
@@ -21,6 +54,20 @@
     #nav-button {
         top: 338px;
         padding: 20px 0;
+    }
+
+    #hero-container {
+        flex-direction: column-reverse;
+        width: 100%;
+        top: 100px;
+    }
+
+    #about-me, #portrait {
+        width: 100%;
+    }
+
+    #about-me p {
+        text-align: center;
     }
 
 }
