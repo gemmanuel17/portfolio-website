@@ -48,6 +48,12 @@
     flex-direction: column;
 }
 
+.video-container video {
+    border: 5px solid rgba(37, 35, 35, 1);
+    border-radius: 10px;
+    height: auto;
+}
+
 .video-container h3 {
     text-align: center;
     margin: 10px;
