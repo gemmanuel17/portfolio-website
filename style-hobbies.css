@@ -68,6 +68,23 @@
     }
 }
 
+/* Tablet styling*/
+
+@media only screen and (max-device-width: 820px) and (orientation: portrait) {
+    #hero-container {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    #about-me {
+        width: 100%;
+    }
+
+    #portrait {
+        padding: 40px;
+    }
+}
+
 /* Mobile device styling*/
 
 @media only screen and (max-device-width: 430px) and (orientation: portrait) {
