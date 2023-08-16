@@ -25,6 +25,34 @@
     height: auto;
 }
 
+
+/* Hero Container Styling */
+#hobbies-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#hobby-videos {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.video-container h3 {
+    text-align: center;
+    margin: 10px;
+}
+
 /* Styling for monitors with max viewport of 1440px*/
 
 @media only screen and (max-device-width: 1440px) {
