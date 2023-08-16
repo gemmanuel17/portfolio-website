@@ -4,9 +4,33 @@
     align-items: center;
     width: 100%;
     flex-direction: column;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
 }
+
+#email-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+}
+
+.email-icon {
+    color: rgba(37, 35, 35, 1) !important;
+    font-size: 2rem !important;
+}
+
+#email-container a {
+    align-self: center;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
 
 @media only screen and (max-device-width: 430px) and (orientation: portrait) {
     #nav-options {
