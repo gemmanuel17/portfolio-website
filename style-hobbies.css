@@ -71,10 +71,6 @@
 /* Tablet styling*/
 
 @media only screen and (max-device-width: 820px) and (orientation: portrait) {
-    
-    #logo {
-        width: 17%;
-    }
 
     #hero-container {
         flex-direction: column-reverse;
@@ -94,9 +90,6 @@
         flex-wrap: wrap;
     }
 
-    #social-media-logos {
-        width: 16%;
-    }
 }
 
 /* Mobile device styling*/
