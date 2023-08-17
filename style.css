@@ -252,6 +252,10 @@ footer{
         width: 17%;
     }
 
+    #logo-img {
+        width: 63%;
+    }
+
     #project-container {
         width: 100%;
     }
