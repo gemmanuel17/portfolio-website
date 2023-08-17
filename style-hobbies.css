@@ -68,7 +68,7 @@
     }
 }
 
-/* Tablet styling*/
+/* Tablet styling Portrait*/
 
 @media only screen and (max-device-width: 820px) and (orientation: portrait) {
 
@@ -90,6 +90,19 @@
         flex-wrap: wrap;
     }
 
+}
+
+/* Tablet styling Landscape */
+
+@media only screen and (max-device-width: 820px) and (orientation: landscape) {
+    #hero-container {
+        width: 100%;
+        gap: 0px;
+    }
+
+    #portrait {
+        padding: 63px;
+    }
 }
 
 /* Mobile device styling*/

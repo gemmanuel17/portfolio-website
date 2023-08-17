@@ -244,7 +244,7 @@ footer{
 
 }
 
-/* Tablet styling*/
+/* Tablet styling Portrait */
 
 @media only screen and (max-device-width: 820px) and (orientation: portrait) {
     
@@ -258,6 +258,19 @@ footer{
 
     #social-media-logos {
         width: 16%;
+    }
+}
+
+/* Tablet styling Landscape */
+
+@media only screen and (max-device-width: 820px) and (orientation: landscape) {
+    
+    #logo {
+        width: 13%;
+    }
+
+    #project-container {
+        width: 90%;
     }
 }
 
