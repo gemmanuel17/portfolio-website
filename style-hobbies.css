@@ -71,9 +71,15 @@
 /* Tablet styling*/
 
 @media only screen and (max-device-width: 820px) and (orientation: portrait) {
+    
+    #logo {
+        width: 17%;
+    }
+
     #hero-container {
         flex-direction: column-reverse;
         gap: 0;
+        width: 96%;
     }
 
     #about-me {
@@ -81,7 +87,15 @@
     }
 
     #portrait {
-        padding: 40px;
+        padding: 6px;
+    }
+
+    #hobby-videos {
+        flex-wrap: wrap;
+    }
+
+    #social-media-logos {
+        width: 16%;
     }
 }
 
