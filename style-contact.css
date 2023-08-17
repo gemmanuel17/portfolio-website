@@ -25,6 +25,10 @@
     align-self: center;
 }
 
+#email-container a:hover {
+    text-decoration: underline;
+}
+
 
 footer {
     position: fixed;
