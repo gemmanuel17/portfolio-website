@@ -23,6 +23,19 @@
     background-color: rgba(205, 193, 162, 1);
 }
 
+/* Tablet styling Portrait*/
+
+@media only screen and (max-device-width: 820px) and (orientation: portrait) {
+
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+
+}
+
+/* Mobile device styling*/
+
 @media only screen and (max-device-width: 430px) and (orientation: portrait) {
     .nav-option {
         padding: 20px 0;
