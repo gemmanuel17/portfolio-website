@@ -266,10 +266,11 @@ footer{
 
     #projects {
         gap: 30px;
+        width: 100%;
     }
 
     .project { 
-        width: 47%;
+        width: 46%;
     }
 
     #social-media-logos {
