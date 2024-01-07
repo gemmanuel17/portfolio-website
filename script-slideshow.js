@@ -1,5 +1,6 @@
 let slideIndex = 1;
 let startX, startY, endX, endY;
+let slideInterval;
 
 showSlides(slideIndex);
 
@@ -15,14 +16,29 @@ document.addEventListener('touchend', (e) => {
   handleSwipe();
 });
 
+// Start automatic slideshow
+slideInterval = setInterval(() => {
+  plusSlides(1);
+}, 4000);
+
 // Next/previous controls
 function plusSlides(n) {
+  clearInterval(slideInterval); // Clear previous interval
   showSlides(slideIndex += n);
+  // Start a new interval after navigating to the next/previous slide
+  slideInterval = setInterval(() => {
+    plusSlides(1);
+  }, 4000);
 }
 
 // Thumbnail image controls
 function currentSlide(n) {
+  clearInterval(slideInterval); // Clear previous interval
   showSlides(slideIndex = n);
+  // Start a new interval after navigating to a specific slide
+  slideInterval = setInterval(() => {
+    plusSlides(1);
+  }, 4000);
 }
 
 function handleSwipe() {
