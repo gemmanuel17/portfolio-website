@@ -26,3 +26,21 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
+
+let touchStartX = 0;
+let touchEndX = 0;
+
+document.addEventListener('touchstart', (e) => {
+  touchStartX = e.touches[0].clientX;
+});
+
+document.addEventListener('touchend', (e) => {
+  touchEndX = e.changedTouches[0].clientX;
+  const swipeDistance = touchStartX - touchEndX;
+
+  if (swipeDistance > 50) {
+    nextSlide(); // Swipe left
+  } else if (swipeDistance < -50) {
+    prevSlide(); // Swipe right
+  }
+});
