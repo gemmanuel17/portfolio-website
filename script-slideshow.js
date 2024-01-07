@@ -4,9 +4,23 @@ let slideInterval;
 
 showSlides(slideIndex);
 
+const slideshowContainer = document.getElementById("slideshow-container");
+
+slideshowContainer.addEventListener('mouseenter', () => {
+  clearInterval(slideInterval); // Pause slideshow on hover
+});
+
+slideshowContainer.addEventListener('mouseleave', () => {
+  // Resume slideshow on mouse leave
+  slideInterval = setInterval(() => {
+    plusSlides(1);
+  }, 4000);
+});
+
 document.addEventListener('touchstart', (e) => {
   startX = e.touches[0].clientX;
   startY = e.touches[0].clientY;
+  clearInterval(slideInterval); // Pause slideshow on touch
 });
 
 document.addEventListener('touchend', (e) => {
