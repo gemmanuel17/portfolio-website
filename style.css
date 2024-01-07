@@ -1,13 +1,3 @@
-/*  
-SCSS RGB
-$raisin-black: rgba(37, 35, 35, 1);
-$slate-gray: rgba(112, 121, 140, 1);
-$isabelline: rgba(245, 241, 237, 1);
-$bone: rgba(218, 210, 188, 1);
-$dun: rgba(205, 193, 162, 1);
-$khaki: rgba(169, 153, 133, 1);
-*/
-
 * {
     /*border: 1px dotted red;*/
     font-family: 'Roboto', sans-serif;
@@ -266,49 +256,6 @@ nav {
     to {opacity: 1;}
 }
 
-/* Project Container Styling */
-/*
-#project-container {
-    padding: 20px 85px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-#projects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 76%;
-    height: auto;
-    gap: 50px;
-    margin: 0 auto;
-}
-
-.project {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 47%;
-    height: auto;
-}
-
-.project img {
-    border: 10px solid rgba(37, 35, 35, 1);
-    border-radius: 20px;
-}
-
-.project img:hover {
-    opacity: 0.75;
-}
-
-.project-img {
-    width: 100%;
-    height: auto;
-}
-*/
-
 /* Footer Styling */
 
 footer{
@@ -380,6 +327,7 @@ footer{
 
     #project-container {
         width: 90%;
+        margin: auto;
     }
 
     .project { 
