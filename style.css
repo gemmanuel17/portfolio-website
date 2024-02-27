@@ -178,7 +178,7 @@ nav {
 .project-img {
     width: 100%;
 }
-
+/*
 .project-description {
     background-color: #fff;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9);
@@ -187,7 +187,7 @@ nav {
     padding: 20px;
 
 }
-
+*/
 .project-link a {
     font-size: 1.5em;
 }
@@ -195,6 +195,12 @@ nav {
 /* Hide slides by default */
 .project-slide {
     display: none;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    padding: 50px;
+    height: 700px;
+    max-width: 100%;
 }
 
 /* Next & previous buttons */
@@ -206,6 +212,7 @@ nav {
     margin-top: -22px;
     padding: 16px;
     color: #fff;
+    background-color: #000;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -221,7 +228,7 @@ nav {
 
 /* On hover add a black background */
 .prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Caption */
@@ -234,7 +241,7 @@ nav {
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
+    margin: 15px 2px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
