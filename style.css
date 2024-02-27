@@ -178,16 +178,7 @@ nav {
 .project-img {
     width: 100%;
 }
-/*
-.project-description {
-    background-color: #fff;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9);
-    border-radius: 10px;
-    margin: 20px;
-    padding: 20px;
 
-}
-*/
 .project-link a {
     font-size: 1.5em;
 }
@@ -201,6 +192,10 @@ nav {
     padding: 50px;
     height: 700px;
     max-width: 100%;
+}
+
+.project-descriptions {
+    text-align: center;
 }
 
 /* Next & previous buttons */
@@ -428,9 +423,10 @@ footer{
     }
 
     .project-slide {
-        height: 900px;
+        height: 780px;
         border-top: 2px solid rgba(0, 0, 0, 0.9);
-        border-bottom: 2px solid rgba(0, 0, 0, 0.9);
+        box-shadow: none;
+        border-radius: 0;
     }
 
 
