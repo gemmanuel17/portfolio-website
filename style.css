@@ -304,6 +304,13 @@ footer{
 
 }
 
+#github-logo {
+    width: 27%;
+    height: auto;
+    margin-left: 15px;
+
+}
+
 /* Tablet styling Portrait */
 
 @media only screen and (max-device-width: 820px) and (orientation: portrait) {
@@ -455,6 +462,10 @@ footer{
     }
     
     #linkedIn-logo {
+        width: 70%;
+    }
+
+    #github-logo {
         width: 70%;
     }
 
