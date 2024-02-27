@@ -339,6 +339,7 @@ footer{
     footer{
         display: grid;
         grid-template-columns: auto auto;
+        justify-content: center;
     }
 
     #social-media-logos {
@@ -470,7 +471,7 @@ footer{
     }
     
     #linkedIn-logo {
-        width: 70%;
+        width: 100%;
     }
 
     #github-logo {
