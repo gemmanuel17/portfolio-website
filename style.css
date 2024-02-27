@@ -336,8 +336,16 @@ footer{
         width: 46%;
     }
 
+    footer{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
     #social-media-logos {
         width: 16%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column: 1 / 3;
     }
 }
 
